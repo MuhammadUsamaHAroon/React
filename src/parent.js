@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import FirstChild from './FirstChild'
 import SecondChild from './SecondChild'
+import OffBulb from "./Asset/images/OIP.jpeg"
+import OnBulb from "./Asset/images/yellow_bulb.png"
 
 const arrObj1 = [{user:"Arshaq",age:25},{user:"Areeb",age:20},{user:"Arif",age:22}]
 const arrObj2 = [{user:"Junaid",age:25},{user:"jawwad",age:20},{user:"Addel",age:22}]
@@ -9,6 +11,7 @@ const arrObj2 = [{user:"Junaid",age:25},{user:"jawwad",age:20},{user:"Addel",age
 function Parent(){
     // let title1 = "MY Name is Usama"
     // let title2 = "My Name is Ammar"
+    const [bulb, setBulb] = useState(false)
     
 
     return(
@@ -16,11 +19,16 @@ function Parent(){
         
         <div>
            
+           
 
-            <FirstChild arra1={arrObj1}/>
+            {/* <FirstChild arra1={arrObj1}/>
 
         
-            <SecondChild arra2={arrObj2} />
+            <SecondChild arra2={arrObj2} /> */}
+
+            <h1>{bulb === true ? <img style={{width:"15.5%"}} src={OnBulb} alt="Image not found" />:""}</h1>
+            <h1>{bulb === false?<img style={{width:"20%"}} src={OffBulb} alt="Image not found"/>:"" }</h1>
+            <button onClick={()=>bulb === true ? setBulb(false):setBulb(true)}>{bulb === false  ? "Open" : "Close"}</button>
         </div>
     
     )
