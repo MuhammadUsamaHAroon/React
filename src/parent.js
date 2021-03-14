@@ -15,7 +15,7 @@ function Parent(){
     const [count, setCount]=useState(0)
 
     function IncreamentCount(){
-        setCount( count + 1)
+        setCount(count + 1)
     }
 
     function DecreamentCont(){
@@ -36,9 +36,9 @@ function Parent(){
         
         <>
            
-           <button onClick={IncreamentCount}>Increament</button>
+           {/* <button onClick={IncreamentCount}>Increament</button>
            <span>{count}</span>
-           <button onClick={DecreamentCont}>Decreament</button>
+           <button onClick={DecreamentCont}>Decreament</button> */}
             {/* <FirstChild arra1={arrObj1}/
             <SecondChild arra2={arrObj2} /> */}
 
