@@ -1,0 +1,120 @@
+body{
+    background-color: #ededed;
+
+}
+
+#container{
+    border: solid none;
+    background-image: url('../../Asset/images/green.jpeg');
+    height: 80vh;
+    width: 50vw;
+    margin-left: 23rem;
+    margin-top: 4rem;
+    /* justify-content: space-evenly; */
+    /* align-items: center;
+    display: flex; */
+    /* background-image: url('../../Asset/images/green.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    
+    
+    
+
+}
+#backgColour{
+    /* background-color: rgb(68, 196, 121) ; */
+    height: 80vh;
+    width: 50vw;
+    /* margin-left: 23rem; */
+    margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    border: solid none;
+    
+    opacity: 0.7;
+   
+    
+}
+#main-one{
+    background-color: white;
+    border: solid none;
+    height: 60vh;
+    width:20.5vw;
+    margin-left:4.5em;
+    
+
+    
+}
+.Header{
+    border: solid none;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.InputName{
+    /* margin-top: 1rem;; */
+    margin-left: 2rem;
+    width: 15rem;
+    height: 2rem;
+    border-top: none;
+    border-left:none ;
+    border-right:none;
+    outline: none;
+    /* border-bottom:none ; */
+    
+}
+.InputEmail{
+    margin-top: 1rem;;
+    margin-left: 2rem;
+    width: 15rem;
+    height: 2rem;
+    border-top: none;
+    border-left:none ;
+    border-right:none;
+    outline: none;
+    /* border-bottom:none ; */
+    
+}
+.InputPass{
+    margin-top: 1rem;;
+    margin-left: 2rem;
+    width: 15rem;
+    height: 2rem;
+    border-top: none;
+    border-left:none ;
+    border-right:none;
+    outline: none;
+    /* border-bottom:none ; */
+    
+}
+.ConfirmPass{
+    margin-top: 1rem;;
+    margin-left: 2rem;
+    width: 15rem;
+    height: 2rem;
+    border-top: none;
+    border-left:none ;
+    border-right:none;
+    outline: none;
+    /* border-bottom:none ; */
+    
+}
+#main-two{
+    border: solid none;
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    /* margin-left:rem; */
+    
+}
+.NextButton{
+    border-radius:30px;
+    /* align-items: center; */
+    margin-top: 15rem;
+    width: 11rem;
+    height: 4rem;
+    outline: none;
+    margin-left:3rem;
+    background-color: blue;
+    color: white;
+}
