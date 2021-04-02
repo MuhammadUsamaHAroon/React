@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './style.css'
 
 
-function SignUp(){
+function SignUp(props){
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -32,15 +32,22 @@ function SignUp(){
   
       }
 
-      const nextButton = ()=>{
+      const nextButton = (props)=>{
           console.log(name)
           console.log(email)
           console.log(password)
           console.log(conPass)
           
+          localStorage.setItem("UserEmail", email)
+          localStorage.setItem("UserPass", password)
+
+        props.setsignup(false)
+        props.setlogin(true)
+          
       }
 
     return(
+        // <div id = "Parent">
 
         <div id = "container">
         <div id = "backgColour">
@@ -63,10 +70,12 @@ function SignUp(){
             </div>
             <div id = "main-two">
                 <div ><button onClick = {nextButton} className = "NextButton">Next</button> </div>
+                <div></div>
             </div>
 
             </div>
         </div>
+        // </div>
     )
 }
 export default SignUp
