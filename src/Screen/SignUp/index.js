@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
 import './style.css'
+import { useHistory } from "react-router-dom";
 
 
 function SignUp(props){
+  let history = useHistory();
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -38,12 +40,11 @@ function SignUp(props){
           console.log(password)
           console.log(conPass)
           
+          
           localStorage.setItem("UserEmail", email)
           localStorage.setItem("UserPass", password)
-
-        props.setsignup(false)
-        props.setlogin(true)
-          
+          history.push("/login")
+      
       }
 
     return(

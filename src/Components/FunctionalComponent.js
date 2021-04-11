@@ -1,9 +1,11 @@
 import React from 'react'
 
-// function Hi(){
-//     return <h1>Hii, Usama</h1>
-// }
-
-export const FunctionalComp = ()=><h1>Usama</h1>
-
-// export default Hi
+const learn = (props)=>{
+    return(
+        <div>
+            <h1>{props.name}</h1>
+           
+        </div>
+    )
+}
+export default learn

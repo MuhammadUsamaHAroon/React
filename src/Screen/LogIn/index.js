@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
 // import Button from '../../Components/Button'
 import './style.css'
+import { useHistory } from "react-router-dom";
 
 
 
 function LogIn(){
+    let history = useHistory();
+
     const [loginName, setLoginName] = useState("")
     const [loginEmail, setLoginEmail] = useState("")
     const [loginPass, setLoginPass] = useState("")
@@ -26,8 +29,11 @@ function LogIn(){
     }
 
     const login = ()=>{
+    
         console.log(loginEmail)
         console.log(loginPass)
+
+        history.push("/Quiz");
        
     }
     
@@ -36,7 +42,12 @@ function LogIn(){
     const registerPass = localStorage.getItem('UserPass')
     console.log(registerPass)
 
-    
+    // const move = ()=>{
+    //     history.push("/SignUp");
+    // } 
+    const Go = ()=>{
+        history.push("/SignUp");
+    }
 
     
     return(
@@ -58,6 +69,11 @@ function LogIn(){
 
         <button onClick = {(login)=>registerEmail===loginEmail && registerPass===loginPass ?alert("Login SuccessFully")
         :alert("InCorrect Password")} id = "LogButton">LogIn</button>
+        {/* <button onClick = {move} >Text</button> */}
+        <p  className = "string">if you dont have acount click here</p>
+        <a className = "link" onClick = {Go} href = "">Register Here</a>
+        
+        
         </div>
 
         </div>

@@ -1,0 +1,122 @@
+
+ #contaner{
+    background-color: blue;
+    border: solid none;
+    /* background-color: blue; */
+    background-image: url(../../Asset/images/unnamed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* #contParent{
+    background-color: blue;
+    opacity: 0.9;
+
+} */
+.heaDER{
+    border: solid none;
+    height: 10vh;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    /* margin-bottom: 1rem; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+.heading{
+    margin-bottom: 1rem;
+}
+.searchInput{
+    height: 3.3rem;
+    width: 100%;
+    outline: none;
+}
+.searchBar{
+    border: solid none;
+    height: 8vh;
+    width: 25vw;
+    margin-left: 35rem;
+    margin-top: 1rem;
+}
+#parentHalf{
+    border: solid none;
+    height: 90vh;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 4rem;
+    /* margin-top: 2rem; */
+    font-family: serif;
+}
+.firstHalf{
+    border: solid none;
+    height: 90vh;
+    width: 45vw;
+    /* margin-left: 3rem; */
+    /* margin-top: 4rem; */
+    color: white;
+}
+.firstButton{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    width:28rem;
+    height: 3rem;
+    outline: none;
+    margin-left: 7rem;
+    margin-top:4rem;
+    
+}
+.secButton{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    width:28rem;
+    height: 3rem;
+    outline: none;
+    margin-left: 7rem;
+    margin-top:4rem;
+}
+.thirdtButton{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    width:28rem;
+    height: 3rem;
+    outline: none;
+    margin-left: 7rem;
+    margin-top:4rem;
+}
+.fourthButton{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    width:28rem;
+    height: 3rem;
+    outline: none;
+    margin-left: 7rem;
+    margin-top:4rem;
+}
+.fifthButton{
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    width:28rem;
+    height: 3rem;
+    outline: none;
+    margin-left: 7rem;
+    margin-top:4rem;
+}
+
+
+
+
+.secondHalf{
+    border: solid none;
+    height: 90vh;
+    width: 45vw;
+    /* margin-left: 3rem; */
+    /* margin-top: 4rem; */
+}
