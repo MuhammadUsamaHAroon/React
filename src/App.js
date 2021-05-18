@@ -1,44 +1,45 @@
-import React, { useEffect, useState} from 'react';
-// import { useState } from 'react/cjs/react.development';
-// import SignUp from './Screen/SignUp/index'
-// import LogIn from './Screen/LogIn/index'
-import Router from '../src/config/Router'
-// import learn from './Components/FunctionalComponent';
-// import Quiz from '../src/Screen/Quiz/index'
-// import Learn from './Components/FunctionalComponent'
-import Question from './Screen/Questions/index'
+import React from 'react'
+import Cards from "./Cards Web/cards"
+import image from "../src/Asset/images/671083.jpg"
+import Data from "./Cards Web/data"
 
 
 
-
-
-
-
-function App(){
- 
+const App = () => {
+    
+    
   
-    return(
-      <div>
+    
+    return (
+
+        <div>
+        
+        
 
     
-      
-      
-     
-     <Router/>
-     {/* <Learn name = "Usama"/>
-     <Learn Father = "Haroon" />
-     <Learn age = "19">
-       <p>This is Children</p>
-       <button>Hello</button>
-     </Learn>
-     <Learn class = "Inter"/> */}
-     
-      <Question/>
+          <div className= "header"><h1>top five netfilix series </h1></div>
+          
+          
+          {Data.map((val, index)=>{
+              {console.log(val, index)}
+              return(
 
-      </div>
+            <Cards 
+                key= {val.id}
+                imgsrc = {val.image}
+                seriesName = {val.name}
+                titleName = {val.title}
+                buttonLink = {val.link}
+         />
+              )
+         })}
+         
+            
+            
+
+        
+        </div>
     )
-  }
+}
 
-  
-
-export default  App
+export default App

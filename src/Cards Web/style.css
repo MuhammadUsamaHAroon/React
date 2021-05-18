@@ -1,0 +1,89 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    /* border: solid green; */
+    /* background-color: lightgray ; */
+    height: auto;
+    width: 100%;
+
+}
+.header{
+    border: solid white;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    background-color:white;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.setOne{
+    /* border:  solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top:5rem;
+}
+.card{
+    /* border: solid blue;   */
+    height: 23rem;
+    width: 18rem;
+    border-radius:10px;
+    background-color: white;
+
+}
+.card:hover{
+    box-shadow: 3px 3px 3px 5px gray;
+    
+    
+}
+.cardImage{
+    width: 18.75vw;
+    height: 35vh;
+    background-clip: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardCategory{
+    /* border:solid orchid; */
+    /* height: 10vh; */
+    /* width: 7vw; */
+}
+.cardName{
+    margin-top: 1rem;
+    /* border: solid orange; */
+    margin-left:1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+.titleName{
+    border:  black;
+    margin-left: 1.5rem;
+    /* margin-top: 1rem; */
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.button{
+    /* border: solid green; */
+    margin-left: 1.5rem;
+    margin-top: 5px;
+    
+     
+     
+}
+.cardbutton{
+    cursor: pointer;
+    height: 2rem;
+    background-color: white;
+    
+
+}
+.cardbutton:hover{
+    background-color: #eee;
+}
