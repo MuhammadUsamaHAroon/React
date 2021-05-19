@@ -21,7 +21,7 @@ const App = () => {
           
           
           {Data.map((val, index)=>{
-              {console.log(val, index)}
+              {/* {console.log(val, index)} */}
               return(
 
             <Cards 

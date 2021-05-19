@@ -1,9 +1,11 @@
 import React from 'react'
 import "./style.css"
+import Images from './images'
+import Heading from './heading'
 
 
 const Cards = (props) => {
-    console.log(props)
+    // console.log(props)
     
     return (
         <div className= "container">
@@ -12,10 +14,10 @@ const Cards = (props) => {
         <div className= "card">
         
 
-         <img className= "cardImage" src={props.imgsrc} />
+         <Images imgsrc= {props.imgsrc}/>
         
       <div className= "cardName">  <span className= "serName">{props.seriesName}</span></div>
-     <div className= "titleName">  <span ><b>{props.titleName}</b></span></div>
+         <Heading titleNaam= {props.titleName}/>
         <div className= "button">
         <a href= {props.buttonLink}>
             <button className= "cardbutton">WATCH NOW</button>

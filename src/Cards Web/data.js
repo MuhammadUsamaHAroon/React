@@ -16,35 +16,35 @@ import Image from "../Asset/images/671083.jpg"
             id:2,
             image:"https://picsum.photos/51/100",
             name:"NetFlix Original Series",
-            title:"DARK",
+            title:"Usama",
             link:"https://www.instagram.com/?hl=en"
         },
         {
             id:3,
             image:"https://picsum.photos/101/150",
             name:"NetFlix Original Series",
-            title:"DARK",
+            title:"Rukhsana",
             link:"https://www.instagram.com/?hl=en"
         },
         {
             id:4,
             image:"https://picsum.photos/151/200",
             name:"NetFlix Original Series",
-            title:"DARK",
+            title:"Haroon",
             link:"https://www.instagram.com/?hl=en"
         },
         {
             id:5,
             image:"https://picsum.photos/201/250",
             name:"NetFlix Original Series",
-            title:"DARK",
+            title:"Aziz",
             link:"https://www.instagram.com/?hl=en"
         },
         {
             id:6,
             image:"https://picsum.photos/251/300",
             name:"NetFlix Original Series",
-            title:"DARK",
+            title:"Muzammil",
             link:"https://www.instagram.com/?hl=en"
         }
         
